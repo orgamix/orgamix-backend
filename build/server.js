@@ -32,7 +32,7 @@ const GDatabase =  new Datastore({
 ///////////////////
 //API METHODS BELOW
 /////////////////
-app.get('/', (req, res) => {
+app.get('/api/v1', (req, res) => {
     console.log('Welcome to Orgamix; feel at home');
     let results = 'Welcome to Orgamix; feel at home';
     res.send(JSON.stringify({ results }));

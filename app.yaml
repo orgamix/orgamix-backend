@@ -1,0 +1,7 @@
+runtime: nodejs
+env: flex
+
+handlers:
+- url: /api/.*
+  secure: always
+  script: auto

@@ -4,8 +4,9 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build && node build/server.js",
-    "build": "rimraf ./build && tsc"
+    "start": "node build/server.js",
+    "build": "rimraf ./build && tsc",
+    "deploy": "gcloud app deploy"
   },
   "repository": {
     "type": "git",
